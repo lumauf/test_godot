@@ -20,9 +20,9 @@
 - [ ] tâche 3
 
 ## fait
-- [ ] Mise en place Git
-- [ ] Structuration de Calculus
-- [ ] Brainstorming
+- [X] Mise en place Git
+- [X] Structuration de Calculus
+- [X] Brainstorming
 
 # Points d'attention
 
