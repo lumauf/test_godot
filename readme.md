@@ -3,21 +3,26 @@
 # Calendrier
 
 # Tâches
+
 ## en cours
 ### Lucien
-- [ ] tâche 1
-- [ ] tâche 2
-- [ ] tâche 3
+- [ ] Génération des ennemis :
+    - Taille : 1 bloc
+    - Mouvement : vers le player, alterné avec le player
+    - Collision
 
 ### Xavier
-- [ ] tâche 1
-- [ ] tâche 2
-- [ ] tâche 3
-
+- [ ] Créer le terrain (taille de l'écran, échiquier)
+- [ ] Créer le joueur :
+    - Mouvement
+    - Caméra qui le suit
+    - Collision
+    - Mur sur le bord de l'écran
 ## a faire 
-- [ ] tâche 1
-- [ ] tâche 2
-- [ ] tâche 3
+- [ ] Shoot
+- [ ] Ennemis à 2,...,n blocs
+- [ ] IA ennemis
+- [ ] Score
 
 ## fait
 - [X] Mise en place Git
