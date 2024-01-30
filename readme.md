@@ -12,9 +12,9 @@
     - Collision
 
 ### Xavier
-- [ ] Créer le terrain (taille de l'écran, échiquier)
+- [x] Créer le terrain (taille de l'écran, échiquier)
 - [ ] Créer le joueur :
-    - Mouvement
+    - [x] Mouvement
     - Caméra qui le suit
     - Collision
     - Mur sur le bord de l'écran
