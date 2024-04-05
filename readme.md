@@ -15,7 +15,7 @@
 - [x] Créer le terrain (taille de l'écran, échiquier)
 - [ ] Créer le joueur :
     - [x] Mouvement
-    - Caméra qui le suit
+    - [x] Caméra qui le suit
     - Collision
     - Mur sur le bord de l'écran
 ## a faire 
