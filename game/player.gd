@@ -10,24 +10,25 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	move_player(delta)
+	noresponse(delta)
 	
-func move_player(delta):
+func move_player():
 	var direction = Vector2.ZERO
 	if Input.is_action_pressed("up"):
 		direction.y -= 1
-		await get_tree().create_timer(1).timeout
-	if Input.is_action_pressed("down"):
+	elif Input.is_action_pressed("down"):
 		direction.y += 1
-		await get_tree().create_timer(1).timeout
-	if Input.is_action_pressed("left"):
+	elif Input.is_action_pressed("left"):
 		direction.x -= 1
-		await get_tree().create_timer(1).timeout
-	if Input.is_action_pressed("right"):
-		direction.x += 1
-		await get_tree().create_timer(1).timeout
+	elif Input.is_action_pressed("right"):
+		direction.x += 1		
 	
-	position += direction * delta * speed
-		
+	position += direction * 1 * speed
+
+func noresponse(delta):
 	
+
+func _on_timer_timeout():
+	while _process(delta):	
+		move_player()
 	
